@@ -1,18 +1,19 @@
 *{
   padding:0% ;
-  margin: o;
+  margin: 0;
   width: 0;
   height: 0;
 }
 .pg2 {
-
+width: 100%;
+height: 100vh;
 display: grid;
 background-color: #393838;
 }
 
 .card {
   top: -267px;
-    margin: 24rem;
+    margin: 22.2rem;
     display: grid;
     position: absolute;
     width: 17rem;
@@ -82,17 +83,17 @@ background-color: #393838;
   position: absolute;
   width: 7rem;
   height: 7rem;
-  background: rgb(158, 158, 158);
+  background: rgb(140, 0, 0);
   border-radius: 30px;
   overflow: hidden;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 233, 0.2) 0px 7px 29px 0px;
   transition: all 1s ease-in-out;
 }
 
 .background {
   position: absolute;
   inset: 0;                                                /* codico do card \/ */         
-  background: radial-gradient(circle at 100% 107%, #4158D0  0%, #C850C0 30%, #FFCC70 100%, #000000 100%);
+  background: radial-gradient(circle at 100% 107%, #4158D0  0%, #C850C0 30%, #FFCC70 100%, );
 }
 
 .logo {
@@ -124,11 +125,11 @@ color: #000;
   position: absolute;
   padding: 10px;
   text-align: right;
-  background: rgba(110, 110, 110, 0.889); /* comocando dos icones */
-  border-top: 2px solid rgb(0, 0, 0);
+  background: rgba(176, 176, 176, 0.509); /* comocando dos icones */
+  border-top: 2px solid rgb(228, 0, 0);
   border-right: 1px solid rgb(0, 255, 195);
   border-radius: 10% 13% 42% 0%/10% 12% 75% 0%;
-  box-shadow: rgba(4, 4, 21, 0.364) -7px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 255, 0.364) -7px 7px 29px 0px;
   transform-origin: bottom left;
   transition: all 1s ease-in-out;
 }
@@ -178,7 +179,7 @@ color: #000;
 }
 
 .box2:hover::before {
-  opacity: 0;
+  opacity: 1;
 }
 
 .box2:hover .icon .svg {
