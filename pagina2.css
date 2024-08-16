@@ -1,0 +1,228 @@
+*{
+  padding:0% ;
+  margin: o;
+  width: 0;
+  height: 0;
+}
+.pg2 {
+display: flex;
+background-color: #393838;
+}
+
+.card {
+  
+    top: 70px;
+    position: absolute;
+    width: 13rem;
+    height: 20rem;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+  }
+
+
+  /* 
+  .card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -1px;
+    margin: auto;
+    width: 200px;
+    height: 264px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+    z-index: -10;
+    transition: all 0.3s ease;
+    transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
+  }
+  
+  .card::after {
+    content: "";
+    z-index: -4;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    transform: translate3d(0, 0, 0) scale(0.95);
+    transition: all 0.3s ease;
+    filter: blur(20px);
+  }
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card2 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background: rgb(255, 0, 0);
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 1s ease-in-out;
+}
+
+.background {
+  position: absolute;
+  inset: 0;                                                /*codico do card \/*/              
+  background: radial-gradient(circle at 100% 107%, #4158D0  0%, #C850C0 30%, #FFCC70 100%, #000000 100%);
+}
+
+.logo {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  transition: all 0.6s ease-in-out;
+}
+.logo h3 {
+text-align: center;
+font-size: medium;
+color: #000;
+}
+
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.icon .svg {
+  fill: rgba(255, 255, 255, 0.797);
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.box {
+  position: absolute;
+  padding: 10px;
+  text-align: right;
+  background: rgba(110, 110, 110, 0.889); /* comocando dos icones */
+  border-top: 2px solid rgb(0, 0, 0);
+  border-right: 1px solid rgb(0, 255, 195);
+  border-radius: 10% 13% 42% 0%/10% 12% 75% 0%;
+  box-shadow: rgba(4, 4, 21, 0.364) -7px 7px 29px 0px;
+  transform-origin: bottom left;
+  transition: all 1s ease-in-out;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.box:hover .svg {
+  fill: white;
+}
+
+.box1 {
+  width: 70%;
+  height: 70%;
+  bottom: -70%;
+  left: -70%;
+}
+
+.box1::before {
+  background: radial-gradient(circle at 30% 107%, #fcef5e 0%, #ffea07 5%, #dc00a5 60%, #62c2fe 90%);
+}
+
+.box1:hover::before {
+  opacity: 1;
+}
+
+.box1:hover .icon .svg {
+  filter: drop-shadow(0 0 5px white);
+}
+
+.box2 {
+  width: 50%;
+  height: 50%;
+  bottom: -50%;
+  left: -50%;
+  transition-delay: 0.2s;
+}
+
+.box2::before {
+  background: radial-gradient(circle at 30% 107%, #36d7ff 0%, #00ACEE 90%);
+}
+
+.box2:hover::before {
+  opacity: 0;
+}
+
+.box2:hover .icon .svg {
+  filter: drop-shadow(0 0 5px white);
+}
+
+.box3 {
+  width: 30%;
+  height: 30%;
+  bottom: -30%;
+  left: -30%;
+  transition-delay: 0.4s;
+}
+
+.box3::before {
+  background: radial-gradient(circle at 30% 107%, #5361ff 0%, #9807ff 90%);
+}
+
+.box3:hover::before {
+  opacity: 1;
+}
+
+.box3:hover .icon .svg {
+  filter: drop-shadow(0 0 5px white);
+}
+
+.box4 {
+  width: 10%;
+  height: 10%;
+  bottom: -10%;
+  left: -10%;
+  transition-delay: 0.6s;
+}
+
+.card2:hover {
+  transform: scale(1.1);
+}
+
+.card2:hover .box {
+  bottom: -1px;
+  left: -1px;
+}
+
+.card2:hover .logo {
+  transform: translate(0, 0);
+  bottom: 20px;
+  right: 20px;
+}
