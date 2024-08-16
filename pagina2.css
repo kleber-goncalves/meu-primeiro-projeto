@@ -5,23 +5,23 @@
   height: 0;
 }
 .pg2 {
-display: flex;
+
+display: grid;
 background-color: #393838;
 }
 
 .card {
-  
-    top: 70px;
+  top: -267px;
+    margin: 24rem;
+    display: grid;
     position: absolute;
-    width: 13rem;
-    height: 20rem;
+    width: 17rem;
+    height: 27rem;
     background-color: #000;
-    display: flex;
-    justify-content: center;
     padding: 20px;
     border-radius: 20px;
-    cursor: pointer;
     color: white;
+    justify-items: center;
   }
 
 
@@ -78,10 +78,11 @@ background-color: #393838;
 
 
 .card2 {
+  top: 30px;
   position: absolute;
-  width: 90px;
-  height: 90px;
-  background: rgb(255, 0, 0);
+  width: 7rem;
+  height: 7rem;
+  background: rgb(158, 158, 158);
   border-radius: 30px;
   overflow: hidden;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -90,7 +91,7 @@ background-color: #393838;
 
 .background {
   position: absolute;
-  inset: 0;                                                /*codico do card \/*/              
+  inset: 0;                                                /* codico do card \/ */         
   background: radial-gradient(circle at 100% 107%, #4158D0  0%, #C850C0 30%, #FFCC70 100%, #000000 100%);
 }
 
